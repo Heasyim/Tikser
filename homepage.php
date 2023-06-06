@@ -22,8 +22,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-gradient fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">
-          <img src="Assets/logo-tikser.svg" class="img-fluid" width="114px" height="55.15px" alt="logo">
+        <a class="navbar-brand" href="homepage.php">
+          <img src="Assets/logo-tikser.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,9 @@
               <a class="nav-link" href="#">MY TICKET</a>
             </li>
             <li class="nav-item">
-              <form class="d-flex" role="search">
+              <form class="d-flex" role="search" href="#">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Search</button>
+                <button class="btn btn-outline-warning" type="submit" >Search</button>
               </form>
             </li>
             <li class="nav-item">
