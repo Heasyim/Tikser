@@ -1,3 +1,4 @@
+/* Load */
 .spinner-wrapper {
     background-color: #131313;
     position: fixed;
@@ -19,4 +20,34 @@
 .spinner-border {
     height: 60px;
     width: 60px;
+}
+
+/* Body */
+body {
+    background-color: #131313;
+}
+
+/* Caraousel */
+.SecCaraousel {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Konser */
+.SecKonser {
+    padding: 5%;
+}
+
+.judulKonser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulKonser h1 {
+    color: antiquewhite;
+}
+
+.SecKonser .cards-wrapper {
+    display: flex;
 }

@@ -20,6 +20,7 @@
     </div>
 
     <!-- Navbar -->
+  <section class="SecNavbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-gradient fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="homepage.php">
@@ -73,9 +74,11 @@
         </div>
       </div>
     </nav>
-
+  </section>
     <!-- Home -->
+
       <!-- Carousel -->
+    <section class="SecCaraousel">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -111,6 +114,94 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  <!-- List Konser -->
+  </section>
+
+    <!-- List Konser -->
+    <section class="SecKonser">
+      <div class="judulKonser">
+          <h1>List Event</h1>
+      </div>
+        <div id="carouselExampleControl" class="carousel caraousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide pertama -->
+                <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                        <!-- Kartu pertama -->
+                        <div class="card">
+                          <div class="img-wrapper">
+                            <img src="Assets/coldplay.png" class="card-img-top" alt="Coldplay">
+                          </div>  
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Kartu kedua -->
+                        <div class="card">
+                          <div class="img-wrapper">
+                            <img src="Assets/radwimps.png" class="card-img-top" alt="Radwimps">
+                          </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Kartu ketiga -->
+                        <div class="card">
+                            <img src="Assets/the-weekend.png" class="card-img-top" alt="The weekend">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide kedua -->
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <!-- Kartu pertama -->
+                        <div class="card">
+                          <div class="img-wrapper">
+                            <img src="Assets/babymetal.png" class="card-img-top" alt="Coldplay">
+                          </div>  
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Kartu kedua -->
+                        <div class="card">
+                            <img src="Assets/Dewa19.png" class="card-img-top" alt="Radwimps">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <!-- Kartu ketiga -->
+                        <div class="card">
+                            <img src="Assets/the-weekend.png" class="card-img-top" alt="The weekend">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
   </body>
 </html>
