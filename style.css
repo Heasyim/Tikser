@@ -1,0 +1,22 @@
+.spinner-wrapper {
+    background-color: #131313;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.spinner-wrapper img {
+    width: 400px;
+    top: 180px;
+    position: fixed;
+}
+.spinner-border {
+    height: 60px;
+    width: 60px;
+}
