@@ -11,6 +11,7 @@
     <script defer src="script.js"></script>
   </head>
   <body id="page-top">
+
     <!-- Load Screen -->
     <div class="spinner-wrapper">
       <img src="Assets/logo-tikser.svg" alt="logo">
@@ -21,7 +22,7 @@
 
     <!-- Navbar -->
   <section class="SecNavbar">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-gradient fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="homepage.php">
           <img src="Assets/logo-tikser.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
@@ -75,36 +76,40 @@
       </div>
     </nav>
   </section>
+
     <!-- Home -->
 
-      <!-- Carousel -->
-    <section class="SecCaraousel">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Assets/coldplay.png" class="d-block w-100" alt="coldplay">
-            <div class="carousel-caption d-none d-md-block ">
-            <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Assets/radwimps.png" class="d-block w-100" alt="radwimps">
-            <div class="carousel-caption d-none d-md-block">
-            <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Assets/the-weekend.png" class="d-block w-100" alt="weekend">
-            <div class="carousel-caption d-none d-md-block">
-            <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
-            </div>
+    <!-- Carousel -->
+  <section class="SecCarousel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Assets/coldplay.png" class="d-block w-100" alt="coldplay">
+          <div class="carousel-caption d-none d-md-block ">
+          <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
           </div>
         </div>
+        <div class="carousel-item">
+          <img src="Assets/radwimps.png" class="d-block w-100" alt="radwimps">
+          <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/the-weekend.png" class="d-block w-100" alt="weekend">
+          <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="btn btn-warning btn-outline-dark">BUY TICKET</button>
+          </div>
+        </div>
+        <div class="event">
+          <h1>Popular Event</h1>
+        </div>
+      </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -116,92 +121,107 @@
     </div>
   </section>
 
+
     <!-- List Konser -->
-    <section class="SecKonser">
-      <div class="judulKonser">
-          <h1>List Event</h1>
-      </div>
-        <div id="carouselExampleControl" class="carousel caraousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <!-- Slide pertama -->
-                <div class="carousel-item active">
-                    <div class="cards-wrapper">
-                        <!-- Kartu pertama -->
-                        <div class="card">
-                          <div class="img-wrapper">
-                            <img src="Assets/coldplay.png" class="card-img-top" alt="Coldplay">
-                          </div>  
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <!-- Kartu kedua -->
-                        <div class="card">
-                          <div class="img-wrapper">
-                            <img src="Assets/radwimps.png" class="card-img-top" alt="Radwimps">
-                          </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <!-- Kartu ketiga -->
-                        <div class="card">
-                            <img src="Assets/the-weekend.png" class="card-img-top" alt="The weekend">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+  <section class="SecKonser">
+    <div class="judulKonser">
+      <h1>List Event</h1>
+    </div>
+    <!-- caraousel -->
+      <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+              <!-- Kartu Pertama -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/babymetal.png" alt="...">
                 </div>
-                <!-- Slide kedua -->
-                <div class="carousel-item">
-                    <div class="cards-wrapper">
-                        <!-- Kartu pertama -->
-                        <div class="card">
-                          <div class="img-wrapper">
-                            <img src="Assets/babymetal.png" class="card-img-top" alt="Coldplay">
-                          </div>  
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <!-- Kartu kedua -->
-                        <div class="card">
-                            <img src="Assets/Dewa19.png" class="card-img-top" alt="Radwimps">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <!-- Kartu ketiga -->
-                        <div class="card">
-                            <img src="Assets/the-weekend.png" class="card-img-top" alt="The weekend">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-body">
+                  <h5>BABYMETAL</h5>
+                  <p class="card-text">26 May 2023</p>
+                  <a href="#" class="btn btn-warning">BUY TICKET</a>
                 </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+              </div>
+              <!-- Kartu Kedua -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/the-weekend.png" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">THE WEEKEND</h5>
+                  <p class="card-text">17 December 2023</p>
+                  <a href="#" class="btn btn-warning">BUY TICKET</a>
+                </div>
+              </div>
+              <!-- Kartu Ketiga -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/radwimps.png" alt="...">
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">RADWIMPS</h5>
+                    <p class="card-text">30 July 2023</p>
+                    <a href="#" class="btn btn-warning">BUY TICKET</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <!-- Kartu Keempat -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/coldplay.png" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">COLDPLAY</h5>
+                  <p class="card-text">15 November 2023</p>
+                  <a href="#" class="btn btn-warning">BUY TICKET</a>
+                </div>
+              </div>
+              <!-- Kartu Kelima -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/Dewa19.png"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">DEWA 19</h5>
+                  <p class="card-text">27 May 2023</p>
+                  <a href="#" class="btn btn-warning">BUY TICKET</a>
+                </div>
+              </div>
+              <!-- Kartu Keenam -->
+              <div class="card">
+                <div class="img-wrapper">  
+                  <img src="Assets/WTF.png" alt="...">
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">WE THE FEST</h5>
+                    <p class="card-text">21-23 July 2023</p>
+                    <a href="#" class="btn btn-warning">BUY TICKET</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-  </body>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- caraousel -->
+  </section>
+
+    <!-- News -->
+  <section class="SecNews">
+    
+  </section>
+
+</body>
 </html>
