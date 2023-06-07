@@ -36,8 +36,8 @@ body {
 /* Caraousel */
 .SecCarousel {
     padding-top: 4%;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
 }
 .SecCarousel .carousel-inner .event {
     height: 10em;
@@ -119,4 +119,154 @@ height: 1.5rem;
 .SecKonser .card-body p{
   display: flex;
   color: rgb(183, 183, 183);
+}
+
+/* News */
+.SecNews {
+margin-top: 150px;
+}
+.headlineNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.headlineNews h1 {
+  color: whitesmoke;
+}
+/* .SecNews .carousel {
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+/* .SecNews {
+  background: linear-gradient(278.93deg, #A1ADBB -55.75%, rgba(1, 88, 190, 0) 115.18%);
+} */
+
+.SecNews .carousel-item{
+  position: relative;
+  width: 1440px;
+  height: 1039px;
+  left: calc(50% - 1440px/2);
+}
+
+.SecNews .carousel-item img {
+  width: 1152px;
+  height: 646px;
+  margin-left: 150px;
+}
+.SecNews .carousel-item .carousel-caption {
+  position: flex;
+  top: 50%;
+  background: #131313;
+  width:796px;
+  height: 481px;
+  margin-left: 120px;
+  margin-right: 150px;
+  border-radius: 15px;
+}
+
+.SecNews .carousel-control-prev, .SecNews .carousel-control-next{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.SecNews .carousel-control-prev span, .SecNews .carousel-control-next span{
+width: 1.5rem;
+height: 1.5rem;
+}
+.SecNews .carousel-item .carousel-caption h1 {
+  margin: 50px;
+  align-content: center;
+}
+
+.SecNews .carousel-item .carousel-caption h5 {
+  font-size: 12px;
+  align-content: center;
+  position: flex;
+  margin-right: 578px;
+  margin-left: 0px;
+}
+
+.SecNews .carousel-item .carousel-caption p{
+  margin: 20px;;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  align-content: justify;
+  font-size: 18px;
+
+}
+
+.SecNews .carousel-item .carousel-caption a{
+  font-size: 30px;
+  margin-left: 380px;
+  color: orange;
+  text-decoration: none;
+}
+
+/* Information */
+
+.SecInformation {
+  margin-top: 150px;
+}
+
+.SecInformation .rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 67px 80px;
+  position: absolute;
+  width: 1152px;
+  height: 340px;
+  margin-left: 184px;
+  top: 2982px;
+  background: #222222;
+  border-radius: 25px;
+}
+
+.SecInformation h1{
+  color: white;
+  margin-top: 0px;
+  font-size: 56px;
+}
+
+.SecInformation h3{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  color:rgb(183, 183, 183); 
+}
+
+.SecInformation .email{
+  margin-top: 40px;
+}
+
+.SecInformation label {
+  margin-bottom: 5px;
+}
+
+.SecInformation input[type="text"] {
+  padding: 10px 15px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #2A3138;
+  border: none;
+}
+
+.SecInformation input[type="text"]:focus {
+  outline: none;
+}
+
+
+.SecInformation button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: #FF8A00;
+  color: white;
 }

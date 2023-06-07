@@ -13,12 +13,12 @@
   <body id="page-top">
 
     <!-- Load Screen -->
-    <div class="spinner-wrapper">
+    <!-- <div class="spinner-wrapper">
       <img src="Assets/logo-tikser.svg" alt="logo">
       <div class="spinner-border text-warning" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
-    </div>
+    </div> -->
 
     <!-- Navbar -->
   <section class="SecNavbar">
@@ -107,7 +107,7 @@
           </div>
         </div>
         <div class="event">
-          <h1>Popular Event</h1>
+          <h1>POPULAR EVENT</h1>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -125,7 +125,7 @@
     <!-- List Konser -->
   <section class="SecKonser">
     <div class="judulKonser">
-      <h1>List Event</h1>
+      <h1>LIST EVENT</h1>
     </div>
     <!-- caraousel -->
       <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block">
@@ -149,7 +149,7 @@
                   <img src="Assets/the-weekend.png" alt="...">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">THE WEEKEND</h5>
+                  <h5 class="card-title">THE WEEKND</h5>
                   <p class="card-text">17 December 2023</p>
                   <a href="#" class="btn btn-warning">BUY TICKET</a>
                 </div>
@@ -220,8 +220,71 @@
 
     <!-- News -->
   <section class="SecNews">
-    
+    <div class="headlineNews">
+      <h1>LATEST NEWS</h1>
+    </div>
+    <div id="carouselExampleCaptionsNews" class="carousel slide">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Assets/news1.png" alt="...">
+          <div class="carousel-caption">
+            <h5>Dicky Ardian, May 27 2023</h5>
+            <h1>Chris Martin Buka Suara Soal Desakan Batalkan Konser Coldplay</h1>
+            <p>Jakarta - The fans felt joy after it was confirmed that Coldplay would be holding their concert in Jakarta. 
+              However, there were also those who urged that the concert be.......</p>
+            <a href="#">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/news2.png" alt="...">
+          <div class="carousel-caption">
+            <h5>Dicky Ardian, May 27 2023</h5>
+            <h1>Konser di Indonesia, BABYMETAL Sukses Membuat Venue Jadi Lautan Hitam Oleh Para Penonton</h1>
+            <p>Konser BABYMETAL di Jakarta sukses membuat ICE BSD menjadi lautan hitam.......</p>
+            <a href="#">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/news3.png" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dicky Ardian, May 27 2023</h5>
+            <h1>The Strokes, The 1975, hingga The Kid Laroi akan Tampil di We The Fest 2023</h1>
+            <p>We The Fest (WTF) 2023 Announces Exciting Lineup: The Strokes, The 1975, Lewis Capaldi, and More to Headline! Get Ready for the Hottest Music Festival in Jakarta this Summer.......</p>
+            <a href="#">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
+    <!-- Information -->
+  <section class="SecInformation">
+    <div class="rectangle">
+      <h1>Don’t Miss Updates From Tikser</h1>
+      <h3>We will send you our updates, news, announcement, and more to your email address by fill the form below</h3>
+      <div class="email">
+        <input id="emailInput" type="text" placeholder="Enter your mail">
+        <button>SEND</button>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <section>
+      
+    </section>
 </body>
 </html>
