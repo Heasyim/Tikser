@@ -24,6 +24,7 @@
 
 /* Body */
 body {
+    
     background: linear-gradient(270deg, #1E2328 0%, #000000 100%);
 }
 
@@ -273,6 +274,7 @@ height: 1.5rem;
   color: white;
 }
 
+/* footer */
 .SecFooter {
  margin-top: 500px;
  padding-left: 150px;
@@ -409,4 +411,82 @@ margin-right: 25%;
 .keterangan h5 {
   opacity: 60%;
   font-weight: 20;
+}
+
+.Information {
+  width: 1319px;
+  height: 1500px;
+  display: flex;
+  gap: 100px;
+}
+
+.Information .venue{
+  width: 50%;
+}
+
+.Information .kategori{
+  width: 50%;
+}
+
+.kategori .radiant{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #FFFFB1 0%, rgba(255, 255, 181, 0.66) 51.9%, #838373 100%);
+  border-radius: 9px;
+}
+
+.kategori .immortal{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #E27771 0%, #BB295C 51.9%, rgba(188, 115, 137, 0.66) 100%);
+  border-radius: 9px;
+}
+
+.kategori .Ascendant{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #3CB67B 0%, #23A560 51.9%, #0D512E 100%);
+  border-radius: 9px;
+}
+
+.kategori .diamond{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #E988F8 0%, #C588F5 37.81%, rgba(98, 26, 109, 0.97) 99.99%, rgba(152, 86, 176, 0.16) 100%);
+  border-radius: 9px;
+}
+
+.kategori .platinum{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #5FD1E2 0%, #4494A1 37.81%, #365A66 100%);
+  border-radius: 9px;
+}
+
+.kategori .gold{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #D2953C 0%, #C58A3E 63.33%, #B06919 100%);
+  border-radius: 9px;
+}
+
+.kategori .silver{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #AEB2B1 0%, #E4E8E7 50%, #8D948C 100%);
+  border-radius: 9px;
+}
+
+.kategori .bronze{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #8C6C3A 0%, #876B45 50%, #674305 100%);
+  border-radius: 9px;
+}
+
+.kategori .iron{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, #3B3C3E 0%, #515350 50%, #303132 100%);
+  border-radius: 9px;
 }
