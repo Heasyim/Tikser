@@ -13,12 +13,12 @@
   <body id="page-top">
 
     <!-- Load Screen -->
-    <!-- <div class="spinner-wrapper">
+    <div class="spinner-wrapper">
       <img src="Assets/logo-tikser.svg" alt="logo">
       <div class="spinner-border text-warning" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
-    </div> -->
+    </div>
 
     <!-- Navbar -->
   <section class="SecNavbar">
@@ -283,8 +283,92 @@
   </section>
 
     <!-- Footer -->
-    <section>
-      
+    <section class="SecFooter">
+      <footer class="Footer">
+        <div class="Container1">
+          <div class="Satu">
+            <ul>
+              <li>
+                <img src="Assets/logo-tikser.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
+              </li>
+              <li class="WA">
+                <p>WhatsApp</p>
+                <p>0821 1234 5678<p>
+              </li>
+              <li class="Email">
+                <p>Email<p>
+                <p>tikser@gmail.com<p>
+              </li>
+            </ul>
+          </div>
+          <div class="Dua">
+            <ul>
+             <li>
+              <h3>Company</h3>
+             </li>
+             <li>
+              <a href="#">Partner</a> 
+             </li> 
+            </ul>
+          </div>
+          <div class="Tiga">
+            <ul>
+             <li>
+              <h3>Support</h3>
+             </li>
+             <li>
+              <a href="#">Help Center</a>
+             </li>
+             <li>
+              <a href="#">About Us</a>
+             </li> 
+             <li>
+              <a href="#">Terms & Condition</a> 
+             </li>
+             <li>
+              <a href="#">Privacy Policy</a>
+             </li>
+            </ul>
+          </div>
+          <div class="Empat">
+            <ul>
+             <li>
+             <h3>Get TIKSER app</h3>  
+             </li>
+             <li>
+             <img src="Assets/GooglePlay.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
+             </li>
+             <li>
+             <img src="Assets/AppStore.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
+             </li> 
+            </ul>
+          </div>
+        </div>
+        <div class="Container2">
+          <div class="Partner">
+            
+            <h3>Partner</h3>
+            <div class="sponsor">
+              <img src="Assets/BCA-TESLA.svg" width="350px" height="60.15px" alt="">
+              <img src="Assets/Wekidi-Modify.svg" width="150px" height="60.15px" alt="">
+            </div>
+            
+          </div>
+          <div class="FollowUS">
+            <h3>Follow US</h3>
+            <div class="sosmed">
+              <a href="#"><img src="Assets/facebook.png"  alt=""></a>
+              <a href="#"><img src="Assets/twitter.png"  alt=""></a>
+              <a href="#"><img src="Assets/instagram.png"  alt=""></a>
+              <a href="#"><img src="Assets/youtube.png"  alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <img src="Assets/logo-tikser.svg" width="150px" height="60.15px" alt="">
+          <h3>© 2011-2023 All Rights Reserved.</h3>
+        </div>
+      </footer>
     </section>
 </body>
 </html>
