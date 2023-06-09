@@ -97,43 +97,161 @@
 
         <div class="kategori">
           <div class="radiant mb-3">
+              <img src="Assets/cat/1.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Radiant</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>21 Tiket Tersedia</b></p>
+              </div>
 
-          </div>
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 11.000.000</b></p>
+                <button>Pilih</button>
+              </div>
+
+            </div>
           <div class="immortal mb-3">
-            
+          <img src="Assets/cat/2.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Immortal</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>24 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 10.500.000</b></p>
+                <button>Pilih</button>
+              </div>
+
           </div>
 
           <div class="ascendant mb-3">
-            
+          <img src="Assets/cat/3.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Ascendant</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>11 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 10.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
 
           <div class="diamond mb-3">
+          <img src="Assets/cat/4.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Diamond</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>8 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 9.000.000</b></p>
+                <button>Pilih</button>
+              </div>
             
           </div>
 
           <div class="platinum mb-3">
-            
+          <img src="Assets/cat/5.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Platinum</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>5 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 8.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
 
           <div class="gold mb-3">
-            
+          <img src="Assets/cat/6.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Gold</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>6 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 7.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
 
           <div class="silver mb-3">
-            
+          <img src="Assets/cat/7.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Silver</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>4 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 5.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
           <div class="bronze mb-3">
-            
+          <img src="Assets/cat/8.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Bronze</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>3 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 3.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
+          
 
           <div class="iron mb-3">
-            
+          <img src="Assets/cat/9.png" alt="">
+              
+              <div class="keteranganTiket">
+                  <p style="font-size: 30px"><b>Category: Iron</b></p>
+                  <p style="margin-top: -25px; font-size: 20px"><b>1 Tiket Tersedia</b></p>
+              </div>
+
+              <div class="hargaTiket">
+                <p style="justify-content: center; font-size: 15px; text-align: center;"><b>Rp. 1.000.000</b></p>
+                <button>Pilih</button>
+              </div>
           </div>
+          
           
 
         </div>
 
     </div>
+    </section>
+
+    <section class="pembelian" >
+      <div class="catatan">
+        <img src="Assets/catatan.png" alt="">
+      </div>
+
+      <div class="tiket">
+        <p style="color:white; font-size: 50px"  ><b>Jumlah Tiket</b></p>
+        <p style="color:white; font-size: 40px"  ><b>Category: Radiant</b></p>
+      
+      
+      </div>
+
+      <div class="jumlah">
+      <ion-icon size="large" name="plus"></ion-icon>
+          <p>Jumlah Tiket: 1</p>
+          <button><b>Lanjutkan</b></button>
+
+      </div>
+      
+      
+      
     </section>
     <!-- Footer -->
     <section class="SecFooter">
@@ -223,5 +341,8 @@
         </div>
       </footer>
     </section>
-</body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>

@@ -24,7 +24,9 @@
 
 /* Body */
 body {
-    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
     background: linear-gradient(270deg, #1E2328 0%, #000000 100%);
 }
 
@@ -382,7 +384,7 @@ margin-right: 25%;
 }
 
 .SecTiket .NamaKonser {
-  width: 1319px;
+  width: 1350px;
   display: flex;
   gap: 50px;
   padding-bottom: 25px;
@@ -429,6 +431,7 @@ margin-right: 25%;
 }
 
 .kategori .radiant{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #FFFFB1 0%, rgba(255, 255, 181, 0.66) 51.9%, #838373 100%);
@@ -436,13 +439,15 @@ margin-right: 25%;
 }
 
 .kategori .immortal{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #E27771 0%, #BB295C 51.9%, rgba(188, 115, 137, 0.66) 100%);
   border-radius: 9px;
 }
 
-.kategori .Ascendant{
+.kategori .ascendant{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #3CB67B 0%, #23A560 51.9%, #0D512E 100%);
@@ -450,6 +455,7 @@ margin-right: 25%;
 }
 
 .kategori .diamond{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #E988F8 0%, #C588F5 37.81%, rgba(98, 26, 109, 0.97) 99.99%, rgba(152, 86, 176, 0.16) 100%);
@@ -457,6 +463,7 @@ margin-right: 25%;
 }
 
 .kategori .platinum{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #5FD1E2 0%, #4494A1 37.81%, #365A66 100%);
@@ -464,6 +471,7 @@ margin-right: 25%;
 }
 
 .kategori .gold{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #D2953C 0%, #C58A3E 63.33%, #B06919 100%);
@@ -471,6 +479,7 @@ margin-right: 25%;
 }
 
 .kategori .silver{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #AEB2B1 0%, #E4E8E7 50%, #8D948C 100%);
@@ -478,6 +487,7 @@ margin-right: 25%;
 }
 
 .kategori .bronze{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #8C6C3A 0%, #876B45 50%, #674305 100%);
@@ -485,8 +495,85 @@ margin-right: 25%;
 }
 
 .kategori .iron{
+  display: flex;
   height: 150px;
   width: 100%;
   background: linear-gradient(180deg, #3B3C3E 0%, #515350 50%, #303132 100%);
   border-radius: 9px;
 }
+
+.kategori .keteranganTiket{
+  width: 300px;
+}
+.kategori img{
+  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px
+}
+
+.kategori .hargaTiket{
+  width: 200px;
+}
+
+.kategori .hargaTiket p{
+  margin-top: 70px;
+}
+
+.kategori .hargaTiket button{
+  background: #8CC63F;
+  border-radius: 8px;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  left: 82px;
+  bottom: 20px;
+}
+
+/* pembelian */
+
+.pembelian{
+  display: flex;
+}
+.pembelian .catatan{
+  padding-top: 20px;
+  padding-left: 100px ;
+}
+
+.pembelian .tiket {
+  padding-left: 100px;
+}
+
+.pembelian button{
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 270px;
+  height: 60px;
+  background: #FF8A00;
+  border-radius: 10px;
+  color: white;
+}
+
+.pembelian .jumlah p{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  left: 0px ;
+  color: white;
+  font-size: 40px;
+  border-bottom: white;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.pembelian .jumlah{
+  width: 320px;
+  height: 424px;
+}
+/* ion-icon plus{
+  font-size: 100px;
+  color: white;
+
+} */
