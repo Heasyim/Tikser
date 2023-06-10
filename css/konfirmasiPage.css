@@ -1,0 +1,179 @@
+/* Body */
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(270deg, #1E2328 0%, #000000 100%);
+
+}
+  
+  
+  /* Narvbar */
+.SecNavbar .navbar {
+    background: #131313;
+} 
+
+
+  /* footer */
+.SecFooter {
+    margin-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.SecFooter .Satu img{
+  margin-top: 5px;
+  padding-bottom: 2px;
+}
+
+.SecFooter .Container1{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 0.3px white dashed;
+}
+
+.SecFooter .Container2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 0.3px white dashed;
+}
+
+.SecFooter h3 {
+  margin-top: 5px;
+  color: white;
+}
+
+.SecFooter .WA p {
+  padding-top: -5px;
+  color: white;
+}
+
+.SecFooter .Email p {
+  padding-top: -5px;
+  color: white;
+}
+
+.SecFooter  li {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.SecFooter li a{
+  color: white;
+  text-decoration: none;
+}
+
+.SecFooter .Partner{
+  margin-top: 25px;
+  margin-left: 15%;
+}
+
+.SecFooter .FollowUS{
+margin-top: 25px;
+margin-right: 25%;
+}
+
+.SecFooter .sponsor{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.SecFooter .Partner h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.SecFooter .sosmed{
+  display: flex;
+  gap: 15px;
+}
+
+.SecFooter .FollowUS h3{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.SecFooter .copyright {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.SecFooter .copyright h3 {
+  padding-top: 5px;
+}
+
+/* news Page */
+
+.confirm {
+  position: relative;
+  padding-top: 120px;
+  padding-right: 100px;
+  padding-left: 100px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.confirm .NamaKonser {
+  width: 1350px;
+  display: flex;
+  gap: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F1F6F7;
+}
+
+.NamaKonser .keterangan {
+  color:white;
+  margin-bottom: 5px;
+}
+
+.keterangan h2 {
+  align-items: center;
+  color: #FF8A00;
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.keterangan h4 {
+  font-weight: 50;
+}
+.keterangan h5 {
+  opacity: 60%;
+  font-weight: 20;
+}
+
+.confirm .konfirmasi img{
+    width: 1350px;
+    max-width: 100%;
+    height: auto;
+}
+
+.confirm .rincian img{
+  width: 1350px;
+  max-width: 100%;
+  height: auto;
+}
+
+.confirm button{
+  float: right;
+  right: 0%;
+  top: 5px;
+  float: right;
+  width: 270px;
+  height: 60px;
+  background: #FF8A00;
+  border-radius: 10px;
+  color: white;
+  max-width: 100%; 
+  
+}

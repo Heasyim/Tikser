@@ -1,0 +1,152 @@
+/* Body */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(270deg, #1E2328 0%, #000000 100%);
+}
+  
+  
+  /* Narvbar */
+.SecNavbar .navbar {
+    background: #131313;
+} 
+
+
+  /* footer */
+.SecFooter {
+    margin-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.SecFooter .Satu img{
+  margin-top: 5px;
+  padding-bottom: 2px;
+}
+
+.SecFooter .Container1{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 0.3px white dashed;
+}
+
+.SecFooter .Container2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 0.3px white dashed;
+}
+
+.SecFooter h3 {
+  margin-top: 5px;
+  color: white;
+}
+
+.SecFooter .WA p {
+  padding-top: -5px;
+  color: white;
+}
+
+.SecFooter .Email p {
+  padding-top: -5px;
+  color: white;
+}
+
+.SecFooter  li {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.SecFooter li a{
+  color: white;
+  text-decoration: none;
+}
+
+.SecFooter .Partner{
+  margin-top: 25px;
+  margin-left: 15%;
+}
+
+.SecFooter .FollowUS{
+margin-top: 25px;
+margin-right: 25%;
+}
+
+.SecFooter .sponsor{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.SecFooter .Partner h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.SecFooter .sosmed{
+  display: flex;
+  gap: 15px;
+}
+
+.SecFooter .FollowUS h3{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.SecFooter .copyright {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.SecFooter .copyright h3 {
+  padding-top: 5px;
+}
+
+/* news Page */
+.news{
+    padding-top: 120px;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  
+.news .headline {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.news .headline h2{
+    color: #FF8A00;
+    font-size: 70px;
+    
+}
+
+.news img{
+    width: 1636px;
+    max-width: 100%;
+    height: auto;
+}
+
+.news .berita p{
+    color: white;
+    text-align: justify;
+}
+
+
+
