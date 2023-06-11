@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
 /* Load */
 .spinner-wrapper {
     background-color: #131313;
@@ -430,77 +436,38 @@ margin-right: 25%;
   width: 50%;
 }
 
-.kategori .radiant{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #FFFFB1 0%, rgba(255, 255, 181, 0.66) 51.9%, #838373 100%);
-  border-radius: 9px;
+.radiant {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20px;
 }
 
-.kategori .immortal{
-  display: flex;
-  height: 150px;
+.radiant img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  background: linear-gradient(180deg, #E27771 0%, #BB295C 51.9%, rgba(188, 115, 137, 0.66) 100%);
-  border-radius: 9px;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
-.kategori .ascendant{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #3CB67B 0%, #23A560 51.9%, #0D512E 100%);
-  border-radius: 9px;
+/* .content {
+  position: relative;
 }
 
-.kategori .diamond{
-  display: flex;
-  height: 150px;
+.content img {
   width: 100%;
-  background: linear-gradient(180deg, #E988F8 0%, #C588F5 37.81%, rgba(98, 26, 109, 0.97) 99.99%, rgba(152, 86, 176, 0.16) 100%);
-  border-radius: 9px;
-}
+  height: auto;
+} */
 
-.kategori .platinum{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #5FD1E2 0%, #4494A1 37.81%, #365A66 100%);
-  border-radius: 9px;
-}
 
-.kategori .gold{
-  display: flex;
+/* .kategori .radiant{
+  display: inline-block;
   height: 150px;
   width: 100%;
-  background: linear-gradient(180deg, #D2953C 0%, #C58A3E 63.33%, #B06919 100%);
   border-radius: 9px;
-}
-
-.kategori .silver{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #AEB2B1 0%, #E4E8E7 50%, #8D948C 100%);
-  border-radius: 9px;
-}
-
-.kategori .bronze{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #8C6C3A 0%, #876B45 50%, #674305 100%);
-  border-radius: 9px;
-}
-
-.kategori .iron{
-  display: flex;
-  height: 150px;
-  width: 100%;
-  background: linear-gradient(180deg, #3B3C3E 0%, #515350 50%, #303132 100%);
-  border-radius: 9px;
-}
+} */
 
 .kategori .keteranganTiket{
   width: 300px;
@@ -517,7 +484,7 @@ margin-right: 25%;
 }
 
 .kategori .hargaTiket p{
-  margin-top: 70px;
+margin-bottom: 60px;
 }
 
 .kategori .hargaTiket button{
@@ -527,7 +494,7 @@ margin-right: 25%;
   width: 70px;
   height: 30px;
   left: 82px;
-  bottom: 20px;
+  bottom: 50px;
 }
 
 /* pembelian */
@@ -536,17 +503,18 @@ margin-right: 25%;
   display: flex;
 }
 .pembelian .catatan{
-  padding-top: 20px;
+  margin-top: -300px;
   padding-left: 100px ;
 }
 
 .pembelian .tiket {
+  padding-top: 100px;
   padding-left: 100px;
 }
 
-.pembelian button{
+.pembelian .konfirmasi{
   position: relative;
-  top: 5px;
+  margin-top: 50px;
   left: 20px;
   width: 270px;
   height: 60px;
@@ -555,25 +523,154 @@ margin-right: 25%;
   color: white;
 }
 
-.pembelian .jumlah p{
+#ticketCount {
+  font-size: 30px;
+  color: white;
   align-items: center;
   justify-content: center;
   position: relative;
-  align-items: center;
   left: 0px ;
   color: white;
-  font-size: 40px;
   border-bottom: white;
-  padding-top: 120px;
+  padding-top: 250px;
   padding-left: 20px;
 }
 
-.pembelian .jumlah{
-  width: 320px;
-  height: 424px;
+.minus-button {
+  bottom: 10%;
+  left: 5%;
+  margin-bottom: 20px;
+  margin-left: 270px;
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: solid white;
+  border-radius: 50%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.minus-button::before {
+  content: "-";
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* ion-icon plus{
   font-size: 100px;
   color: white;
 
 } */
+
+
+/* My Tiket */
+.SecMyTiket {
+  padding-top: 120px;
+  padding-right: 100px;
+  padding-left: 100px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.SecMyTiket .Identitas {
+  width: 1350px;
+  display: flex;
+  gap: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F1F6F7;
+}
+
+.Identitas .keterangan {
+  color:white;
+  margin-bottom: 5px;
+}
+
+.keterangan h2 {
+  align-items: center;
+  color: #FF8A00;
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.keterangan h3 {
+  font-weight: 100;
+}
+.keterangan h4 {
+  font-weight: 50;
+}
+.keterangan h5 {
+  opacity: 60%;
+  font-weight: 20;
+}
+
+
+
+.headTabel {
+color: white;
+border-bottom: solid 1px white;
+}
+.headTabel ul  {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+  
+}
+.headTabel li {
+  padding-right: 100px;
+}
+
+.bodyTabel {
+  color: white ;
+}
+
+.bodyTabel ul {
+  margin-top: 50px;
+  margin-left: 5px;
+  display: flex;
+  text-align: center;
+  gap: 150px;
+  border-bottom: 1px solid white;
+}
+
+.bodyTabel li {
+  justify-content: center;
+  text-align: center;
+}
+
+.bodyTabel li .gambar {
+  margin-left: -80px;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.bodyTabel li .gambar h1 {
+  color: #FF8A00;
+  margin-top: 50px;
+}
+.row-2 {  
+  margin-top: 70px;
+  margin-left: -120px;
+}
+.row-2 h3 {
+  font-size: 20px;
+}
+
+.row-3 {
+  margin-top: 70px; 
+  margin-left: 30px;
+}
+
+.row-4 {
+  margin-top: 50px; 
+  margin-left: 80px;
+}

@@ -1,3 +1,53 @@
+<?php
+require 'config.php';
+
+function registrasi($data)
+{
+    global $conn;
+
+    $id = (int)((rand() * rand()) / rand());
+
+    $firstName = stripslashes($data["firstName"]);
+    $lastName = stripslashes($data["lastName"]);
+
+    $fullName = $firstName . " " . $lastName;
+
+    $email = strtolower($data["email"]);
+    $password = mysqli_real_escape_string($conn, $data["password"]);
+
+    // cek email apakah sudah ada atau belum
+    $cekEmail = mysqli_query($conn, "SELECT email FROM user WHERE email = '$email'");
+
+    if (mysqli_fetch_assoc($cekEmail)) {
+        echo "<script>
+                alert('Email Sudah Terdaftar!')
+                </script>";
+        return false;
+    }
+
+    //enkripsi password
+    $password = password_hash($password, PASSWORD_DEFAULT);
+   
+    //tambahkan user ke database registrasi
+    mysqli_query($conn, "INSERT INTO user VALUES('$id', '$fullName', '$email', '$password') ");
+
+    return mysqli_affected_rows($conn);
+}
+
+// Sign Up Berhasil
+if (isset($_POST["signup"])) {
+    if (registrasi($_POST) > 0) {
+        echo "script>
+            alert('Sign Up Berhasil!');
+        </script>";
+        header("Location: loginPage.php");
+    } else {
+        echo mysqli_error($conn);
+    }
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,7 +69,7 @@
           <img src="Assets/logo-tikser.svg" class="img-fluid" width="150px" height="60.15px" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span >
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto p-2">
@@ -51,9 +101,9 @@
                 </svg>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">LOGIN</a></li>
+                <li><a class="dropdown-item" href="loginPage.php">LOGIN</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">HOME</a></li>
+                <li><a class="dropdown-item" href="homepage.php">HOME</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">MY TICKET</a></li>
                 <li><hr class="dropdown-divider"></li>
@@ -72,7 +122,7 @@
         <div class="form-box">
         <img src="Assets/logo-tikser.svg" class="img-fluid" width="150px" height="60.15px" alt="Tikser" />
             <div class="form-value">
-                <form action="">
+                <form action="", method="post">
                     <h2>Sign up to TIKSER</h2>
                     <div class="register">
                         <p>Already a member? <a href="loginPage.php">Log in</a></p>
@@ -81,29 +131,29 @@
                     <div class="name">
                         <div class="firstName">
                             <p>First Name</p>
-                            <input type="text" required>
+                            <input type="firstName" name="firstName" id="firstName" required>
                         </div>
                         <div class="lastName">
                             <p>Last Name</p>
-                            <input type="text" required>
+                            <input type="lastName" name="lastName" id="lastName" required>
                         </div>
                     </div>
 
                     <div class="inputbox">
                         <p>Email</p>
                         <!-- <ion-icon name="mail-outline"></ion-icon> -->
-                        <input type="email" required>
+                        <input type="email" name="email" id="email" required>
                         <!-- <label for="">Email</label> -->
                     </div>
                     
                     <div class="inputbox">
                         <p>Password</p>
                         <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
-                        <input type="password" required>
+                        <input type="password" name="password" id="password" required>
                         <!-- <label for="">Password</label> -->
                     </div>
                     
-                    <button><b>Sign Up</b></button>
+                    <button type="submit" , name="signup"><b>Sign Up</b></button>
                     <div class="or">
                         <ul>
                             <li><hr class="kiri"></li>
